@@ -1,0 +1,21 @@
+body {background-color: black;color: whitesmoke;font-family: 'Courier New', Courier, monospace;border: 5px;border-style: dotted;border-color: whitesmoke;}
+
+p {padding-left: 50px;padding-right: 50px;: 10px;}
+
+header {text-align: center;}
+h1 {font-weight: bolder;font-size: 40px;color: limegreen;}
+h2{font-style: italic;}
+h3{text-align: center;margin-top: 50px;}
+
+footer {text-align: center; margin-top: 50px;font-style: italic;margin-bottom: 20px;}
+
+img {width: 400px;}
+
+.speaker{color:blue;}
+.action{font-style: italic;color: gray;}
+
+#p1{color: limegreen;}
+#p2{color: green;}
+#p3{color: yellowgreen;}
+#p4{color: olivedrab;}
+#p5 {color: darkgreen;}
