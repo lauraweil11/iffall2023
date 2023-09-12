@@ -1,0 +1,19 @@
+body{background-image: linear-gradient(cornsilk, white); font-family:Georgia, 'Times New Roman', Times, serif;}
+
+header {color: cornsilk; 
+    background-color: darkolivegreen; 
+    margin: 20px;
+    text-align: left}
+header{width: 90%;
+    height: 250px;
+    padding: 25px;
+    box-align: center}
+
+    img{padding-right: 20px; padding-left: 25%;}
+    iframe{padding-top: 25px;}
+ 
+p{text-align: center; line-height: 20px; color:darkgoldenrod; margin-bottom: 30px;}
+
+.body {margin-top: 70px; margin-bottom: 40px;}
+
+footer {text-align: center; color: darkolivegreen; font-size: 12px; line-height: 15px; font-style: italic;}
