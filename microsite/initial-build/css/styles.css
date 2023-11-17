@@ -1,0 +1,118 @@
+
+
+.navbar {
+    background-color: lightpink;
+}
+
+.navbar ul {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+h1, h2, h3 {
+    font-family: "vag-rundschrift-d", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+body {
+    font-family: "new-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+footer {
+    padding: 20px;
+    margin: 0;
+    background-color: lightpink;
+    text-align: right;
+    color: white;
+    margin-top: 70px;
+    margin-left: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    margin-left: 0;
+
+}
+
+
+header li {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0;
+    line-height: 12px;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 50pt;
+    color: lightpink;
+    text-align: center;
+    padding: 0;
+}
+
+.home section h3 {
+    text-align: center;
+    color: palevioletred;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+#logo ul, #historyimg ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    width: 200px;
+    padding: 20px;
+}
+
+#historyimg img {
+    height: 200px;
+    padding: 20px;
+}
+
+.menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.menu img {
+    height: 150px;
+}
+
+.menu h4 {
+    text-align: center;
+    margin-top: 70px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+
+}
+
+.menu li {
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    color: palevioletred;
+}
