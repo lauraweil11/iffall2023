@@ -1,0 +1,351 @@
+/*
+
+Oh lord I forgot it had to be responsive... we're doing great.
+
+Let's create a to do list and REMEMBER TO DELETE THIS BEFORE TURNING IT IN !!!
+
+    Figure out what's going on with Nav Bar on Menu page and titles of things in general
+    Sketch what each page should look like
+    Home page - determine what goes on there, add vector art, style nicely, be longer
+    History - figure out timeline, style it, etc
+    Marketing - idk just make it 
+    Menu - yeah do the things and also determine content
+    Footer - add sources, style better, figure out how to add copyright symbol
+    Make everything responsiveeeee
+
+
+Let's remember what each H is:
+    h1 = large header on home page
+    h2 = dates in history, titles in marketing, and for some reason captions in menu 
+    h3 = subtitle on home, Dunkin on nav bar
+    h4 = text at top of menu
+    p = paragraphs, header titles for god knows why
+
+*/
+
+
+/* All Pages */
+body {
+    font-family: "new-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    margin: 0;
+
+    background-color: rgb(255, 249, 250);
+    
+}
+
+h1, h2, h3 {
+    font-family: "vag-rundschrift-d", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Navigation Bar */
+header {
+    position: sticky;
+    top: 0px;
+    margin: 0;
+
+}
+
+.navbar {
+    background-color: lightpink;
+    margin-bottom: 70px;
+
+    
+}
+
+.navbar ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    width: 70%;
+    margin-top: 0;
+    margin-left: 12%;
+    padding-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0;
+    line-height: 12px;
+}
+
+#navbarimg {
+    height: 20px;
+    margin: 0;
+    border-radius: 0;
+}
+
+h5 {
+    font-family: "new-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+h5 :hover {
+    font-weight: 700;
+}
+
+h5 :active {
+    color: palevioletred;
+}
+
+em {
+    color: palevioletred;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin: 0;
+    background-color: lightpink;
+    
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    line-height: 1.15rem;
+
+    margin-top: 70px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 0;
+    position: sticky;
+
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
+
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    column-gap: 20px;
+    margin: 0;
+    justify-content: left;
+}
+
+
+/* Home Page */
+h1 {
+    margin-top: 150px;
+    font-size: 50pt;
+    color: lightpink;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.home section h3 {
+    text-align: center;
+    color: palevioletred;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+#homebuttons  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-left: 15%;
+
+}
+
+#homebuttons li {
+    border: 5px pink solid;
+    border-radius: 75px;
+    padding: 25px;
+    
+    font-size: 10pt;
+    text-align: center;
+    background-color: white;
+    margin-right: 20px;
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: "vag-rundschrift-d", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 12pt;
+    color: orange;
+
+
+    border: 3pt rgb(255, 239, 226) solid;
+    padding: 7pt;
+    border-radius: 20pt;
+}
+
+.button:hover{
+    background-color: rgb(255, 239, 226);
+
+}
+
+/* History Page */
+#logo ul, #historyimg ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#historyimg img {
+    width: 55%;
+
+    background-color:pink ;
+    border-radius: 75px;
+    padding: 5px;
+    margin-left: 35%;
+    margin-bottom: 15px;
+}
+
+.history p {
+    background-color: white;
+    border-radius: 75px;
+    padding: 40px;
+    width: 50%;
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+
+.history h2 {
+    margin-left: 15%;
+    margin-bottom: -50px;
+    font-size: 30px;
+    color: orange;
+}
+
+/* Marketing Page */
+#logo img {
+    width: 300px;
+    background-color:pink ;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#logo ul {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    justify-content:center;
+    justify-items: center;
+    padding: 0;
+
+}
+
+#logo li {
+    width: 300px;
+    margin-bottom: 50px;
+
+}
+
+#logo li p {
+    background-color: white;
+    border-radius: 75px;
+    padding: 40px;
+    
+
+}
+
+#currentlogo {
+    text-align: center;
+    align-content: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+
+    font-weight: 400;
+    
+
+    border: 5px pink solid;
+    border-radius: 75px;
+    padding: 25px;
+
+    background-color: white;
+}
+
+.marketing h2 {
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* Menu Page*/
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.menu img {
+    height: 150px; 
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit:contain;
+}
+
+#drink img {
+    background-color: rgb(252, 196, 147);
+}
+
+#drink h2 {
+    color: orange;
+}
+
+.menu h4 {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+
+    font-weight: 400;
+
+    border: 5px pink solid;
+    border-radius: 75px;
+    padding: 25px;
+
+    background-color: white;
+
+}
+
+#menu li {
+    width: 175px;
+    font-size: 12px;
+    text-align: center;
+    color: palevioletred;
+    margin-bottom: 50px;
+}
